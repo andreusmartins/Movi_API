@@ -5,7 +5,7 @@ let result = document.getElementById("result");
 //Chamado para a API
 let getMovie = () => {
     let movieName = movieNameRef.value;
-    let url = `http://www.omdbapi.com/?t=${movieName}&apikey=${key}`;
+    let url = `https://www.omdbapi.com/?t=${movieName}&apikey=${key}`;
 
 //Resultado para quando o valor do input estiver vazio retornar 0
     if (movieName.length <= 0) {
